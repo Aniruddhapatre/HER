@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
   Heart, Sparkles, Volume2, VolumeX, Play, Pause, ChevronRight,
-  ChevronLeft, X, Mail, MailOpen, Film, Camera
+  ChevronLeft, X, Mail, MailOpen, Film, Camera,
+ Star, Music,
+  Maximize2, 
 } from 'lucide-react';
 import heroPhoto from "./photos/IMG_20261115193455127.JPG";
 
@@ -2636,7 +2638,7 @@ export default function App() {
   const [customizerOpen, setCustomizerOpen] = useState(false);
 
   // Audio State
-  const [isPlayingClip] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [volume, setVolume] = useState(0.35);
 
