@@ -2638,7 +2638,7 @@ export default function App() {
   const [customizerOpen, setCustomizerOpen] = useState(false);
 
   // Audio State
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlayingClip] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [volume, setVolume] = useState(0.35);
 
