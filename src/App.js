@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
   Heart, Sparkles, Volume2, VolumeX, Play, Pause, ChevronRight,
-  ChevronLeft, X, Mail, MailOpen, Film, Camera, Calendar,
-  Compass, Star, Music, BookOpen, HelpCircle, ArrowUp,
-  Maximize2, Check, Layers, Scissors, Sun, Moon, CloudRain, Eye
+  ChevronLeft, X, Mail, MailOpen, Film, Camera
 } from 'lucide-react';
 import heroPhoto from "./photos/IMG_20261115193455127.JPG";
 
